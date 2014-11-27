@@ -1,0 +1,117 @@
+@font-face {
+    font-family: 'Sanchez';
+    font-style: normal;
+    src: url('../fonts/Sanchez/Sanchezregular.otf');
+}
+@font-face {
+    font-family: 'Intro';
+    font-style: normal;
+    src: url('../fonts/Intro/Intro.otf');
+}
+@font-face {
+    font-family: 'NexaLight';
+    font-style: normal;
+    src: url('../fonts/Nexa/NexaLight.otf');
+}
+body {
+    background: rgb(216, 211, 205);
+    /* Old browsers */
+    background: -moz-radial-gradient(center, ellipse cover, rgba(216, 211, 205, 1) 0%, rgba(251, 246, 239, 1) 49%, rgba(216, 211, 205, 1) 100%);
+    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgba(216, 211, 205, 1)), color-stop(49%, rgba(251, 246, 239, 1)), color-stop(100%, rgba(216, 211, 205, 1)));
+    background: -webkit-radial-gradient(center, ellipse cover, rgba(216, 211, 205, 1) 0%, rgba(251, 246, 239, 1) 49%, rgba(216, 211, 205, 1) 100%);
+    background: -o-radial-gradient(center, ellipse cover, rgba(216, 211, 205, 1) 0%, rgba(251, 246, 239, 1) 49%, rgba(216, 211, 205, 1) 100%);
+    background: -ms-radial-gradient(center, ellipse cover, rgba(216, 211, 205, 1) 0%, rgba(251, 246, 239, 1) 49%, rgba(216, 211, 205, 1) 100%);
+    background: radial-gradient(ellipse at center, rgba(216, 211, 205, 1) 0%, rgba(251, 246, 239, 1) 49%, rgba(216, 211, 205, 1) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#d8d3cd', endColorstr='#d8d3cd', GradientType=1);
+}
+#map {
+    width: 100%;
+    height: 100%;
+}
+.container {
+    background: url(img/pattern.png);
+}
+#espacio {
+    margin-top: 3%;
+}
+#espacioDos {
+    margin-top: 7%;
+}
+#rowSafari {
+    margin-top: 5%;
+}
+h1 {
+    font-family: 'Intro';
+    font-size: 40px;
+    text-align: center;
+    text-shadow: 3px 3px 7px rgba(150, 150, 152, 0.6);
+}
+h2 {
+    font-family: 'Intro';
+    font-size: 22px;
+    text-align: center;
+    color: #575757;
+    text-shadow: 2px 2px 7px rgba(150, 150, 152, 0.39);
+}
+#sidebar-wrapper {
+    background: #fbfbfb;
+}
+#sidebar_menu li a,
+.sidebar-nav li a {
+    background: #f0f0f0;
+    border-top: 1px solid #ececec;
+    border-bottom: 1px solid #ececec;
+    color: #a8a8a8;
+    font-family: 'Intro';
+}
+#sidebar_menu li a:hover {
+    color: #fff;
+    background: rgba(255, 162, 000, 1);
+    text-decoration: none;
+}
+.sidebar-nav li a:hover {
+    color: #fff;
+    background: rgba(255, 162, 000, 1);
+    text-decoration: none;
+}
+#tituloMundo {
+    font-family: 'Intro';
+    font-size: 36px;
+    text-align: left;
+    text-shadow: 3px 3px 7px rgba(150, 150, 152, 0.6);
+}
+#subTituloMundo {
+    font-family: 'Intro';
+    font-size: 22px;
+    text-align: left;
+    color: #575757;
+    text-shadow: 2px 2px 7px rgba(150, 150, 152, 0.39);
+}
+p {
+    font-family: 'Sanchez';
+    color: #969696;
+    font-size: 18px;
+    text-align: center;
+}
+#botonHome {
+    background-color: #e0a425;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    padding: 10px;
+    text-align: center;
+    font-family: 'Intro';
+    color: white;
+    font-size: 20px;
+}
+#botonMision{
+    background-color: #459f81;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    padding: 10px;
+    text-align: center;
+    font-family: 'Intro';
+    color: white;
+    font-size: 20px;
+}

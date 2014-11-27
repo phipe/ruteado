@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html ng-app="Mappzoo">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width initial-scale=1.0 maximum-scale=1.0 user-scalable=yes" />
+
+    <title>Mappzoo</title>
+
+
+    <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false&language=es"></script>
+    <link rel="stylesheet" type="text/css" href="css/mapa.css" />
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+
+
+
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="css/miBarraLateral.css" rel="stylesheet" type="text/css">
+    <link href="css/miestilo.css" rel="stylesheet" type="text/css">
+
+</head>
+
+<body>
+
+    <div id="wrapper">
+
+
+
+        <div id="sidebar-wrapper">
+            <ul id="sidebar_menu" class="sidebar-nav">
+                <li class="sidebar-brand"><a id="menu-toggle" href="#">Menu<span id="main_icon" class="glyphicon glyphicon-th-list"></span></a>
+                </li>
+            </ul>
+            <ul class="sidebar-nav" id="sidebar">
+                <li><a href="#/inicio">Inicio<span class="sub_icon glyphicon glyphicon-home"></span></a>
+                </li>
+                <li><a href="#/mapa">Mapa<span class="sub_icon glyphicon glyphicon-globe" ></span></a>
+                </li>
+                <li><a href="#/emblemas">Emblms<span class="sub_icon glyphicon glyphicon-leaf" ></span></a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="container" ng-view >
+        </div>
+
+
+    </div>
+
+
+
+
+
+    <script src="js/jquery-2.1.1.min.js"></script>
+    <script src="js/angular.min.js"</script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="//www.parsecdn.com/js/parse-1.3.0.min.js"></script>
+    <script src="https://code.angularjs.org/1.3.0-beta.10/angular-route.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/Reverse.js"></script>
+    <script src="js/miBarraLateral.js"></script>
+
+</body>
+
+</html>
